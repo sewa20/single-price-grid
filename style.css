@@ -1,0 +1,203 @@
+
+*{
+  text-align: left;
+}
+
+body{
+    background-color:#DAFFFB;
+    font-family: 'Karla', sans-serif;
+    
+    
+}
+
+.container{
+    height:500px;
+    width:700px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:350px;
+    padding:5px solid;
+    margin-top:100px;
+    margin-bottom: 100px;
+    align-self: center;
+    
+    
+}
+
+
+@media only screen and (max-width: 900px) and (min-height:200px) {
+    .container {
+      width: 100%;
+      left:0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+    
+
+/***First-Part****/
+
+.first-part{
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+.row{
+    
+    
+}
+
+
+
+.col{
+  float: left;
+  width: 50%;
+}
+    
+
+  
+
+
+
+  
+  
+
+
+
+
+
+.first{
+   background-color:darkcyan;
+   padding:10px;
+   flex:1;
+   height:312px;
+   text-align: left;
+
+   
+   
+}
+
+.second{
+    background-color:#33BBC5;
+    padding:10px;
+    flex:1;
+    height:312px;
+    
+    
+    
+
+    
+}
+
+.other{
+    color:white;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.dollar{
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.tutor{
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.btn {
+    background: greenyellow;
+    background-image: -webkit-linear-gradient(top, #d6fc3c, #d6fc3c);
+    background-image: -moz-linear-gradient(top, #d6fc3c, #d6fc3c);
+    background-image: -ms-linear-gradient(top, #d6fc3c, #d6fc3c);
+    background-image: -o-linear-gradient(top, #d6fc3c, #d6fc3c);
+    background-image: linear-gradient(to bottom, #d6fc3c, #d6fc3c);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 60px 20px 60px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 30px;
+    
+
+    
+  }
+
+  @media only screen and (max-width:900px) and (min-height:200px) {
+    
+    .btn{
+      font-size: 16px;
+      padding:10px 20px 10px 20px;
+      border-radius: 5px;
+      margin-top: 25px;
+      margin-left: 20px;
+      margin-right: 15px;
+    }
+  }
+
+  .money{
+    font-display: block;
+    font-size: 50px;
+    color:white;
+    position: relative;
+    bottom:40px;
+    left:10px;
+    
+  }
+  
+  .month{
+    float:left;
+    display: flex;
+    position:relative;
+    bottom:70px;
+    left:110px;
+    color:white;
+  }
+
+  .day{
+    position: absolute;
+    top:320px;
+    left:20px;
+    color: #ffffff;
+    
+    
+  }
+  
+  @media only screen and (max-width:900px) and (min-height:200px) {
+    .day{
+      position: relative;
+      top:0;
+      left:0;
+      text-align: left;
+      
+      
+    }
+    .month{
+      bottom:50px;
+      left:80px;
+    }
+  }
+  
+  
+  .free{
+    color:yellow;
+  }
+  .join{
+    color:darkcyan;
+  }
